@@ -1,0 +1,23 @@
+body{
+  background-color: 97e6b5;
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: 48552;
+}
+ul{}
+header{
+  border-bottom: dashed black line 2px;
+}
+div{}
+  
+div img {}
+table {
+  border-collapse: collapse;
+  border: solid black 3px;
+}
+  
+footer{
+  border-top: dashed black line 2px;
+  }
