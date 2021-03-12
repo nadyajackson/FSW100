@@ -1,6 +1,7 @@
 body{
   background-color: #97e6b5;
 }
+/*nav bar */
 nav{
   position:fixed;
   top: 0;
@@ -19,21 +20,76 @@ li {
   padding: 5px;
   margin: 10px;
 }
+
+
+/* header */
 header{
   border-bottom: dashed black 2px;
+  margin-top: 100px;
+  overflow: auto;
 }
-div{
+header img {
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 50px;
+  border: black solid 2px;
+  float: left;
+}
+header h1{
+  font-size: 75px;
+  margin-left: 650px;
+  text-decoration: underline;
+}
+header h3{
+  margin-left: 900px;
+  font-size: 35px;
+}
 
-}
-  
-div img {
+/*body */
 
+div {
+  text-align: center;
+  overflow: auto;
 }
-table {
-  border-collapse: collapse;
-  border: solid black 3px;
+h2{
+  font-size: 30px;
+  text-decoration: underline;
 }
-  
+#one p{
+  font-size: 20px;
+  margin-top: 50px;
+}
+#one img {
+    width: 400px;
+    margin-right: 350px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#two p {
+  font-size: 20px;
+}
+/* footer */
 footer{
   border-top: dashed black 2px;
   }
+table {
+  border-collapse: collapse;
+  border: solid black 2px;
+  margin-left: 300px;
+  float: inline-start;
+  margin-top: 20px;
+}
+tr{
+  border: black solid 2px;
+  padding: 10px;
+}
+#address{
+  float: right;
+  margin-right: 300px;
+  border: black solid 1px;
+  margin-top: 50px;
+}
+#Copy{
+  margin-left: 900px;
+}
