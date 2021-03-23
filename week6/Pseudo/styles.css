@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+div {
+    height: 200px;
+    padding: 15px;
+    border:5px solid white;
+    float: left
+}
+
+/*colors-box and border */
+#one{
+  background-color: red;
+}
+#one:hover{
+  background-color: pink;
+  border: black;
+}
+
+/*size and color*/
+#two{
+  background-color: orange;
+}
+#two:hover{
+  background-image: linear-gradient(orange, yellow);
+  height: 350px;
+  width: 200px;
+}
+
+/*border-image: and shadow*/
+#three{
+  background-color: yellow;
+}
+#three:hover{
+  border-image:url();
+  box-shadow: 10px, 10px, gray;
+}
+
+
+/*background-image and size*/
+#four{
+  background-color: green;
+}
+#four:hover{
+  backgroud-image: url();
+  height: 500px;
+  width: 500px;
+}
+
+/*position and border size*/
+#five{
+  background-color: blue;
+}
+#five:hover{
+  border: 5px dashed black;
+  border-radius: 25%;
+  position: relative;
+  left: -20px;
+}
+
+/*border-rounding and sizing */
+#six{
+ background-color: violet; 
+  text-decoration-line: underline;
+}
+#six:hover{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+}
