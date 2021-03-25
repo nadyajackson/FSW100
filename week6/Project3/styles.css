@@ -1,9 +1,180 @@
+*{
+    background-color: lightsteelblue;
+}
+@media only screen and (min-width: 320px){
 header{
+    text-align: center;
+}
+header h1{
     font-family: 'Oi', cursive;
+    font-size: 35px;
 }
-img{
-    height: 200px;
+header img{
+    display: none;
 }
-nav{
+
+nav {
+    text-align: center;
+    margin-bottom: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+nav a{
     font-family: 'Crafty Girls', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#welcome{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    border-bottom-width: 15px;
+    padding-bottom: 15px;
+    border-bottom: dashed black 2px;
+}
+#welcome p{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-emphasis: bold;
+}
+#welcome ul{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 15px;
+    text-align: center;
+    list-style: inside;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 50px;
+}
+.grid h1{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+#matte, #glossy, #paper{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+div img{
+    height:250px;
+    width: 250px;
+    margin: 10px;
+}
+
+footer{
+    border-top: dashed black 2px;
+}
+
+
+#copy{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+}
+
+
+@media only screen and (min-width: 768px){
+    header h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    header img{
+        height: 75px;
+        margin-top: 45px;
+        display: block;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav{
+        grid-template-columns: auto auto auto auto;
+    }
+    nav a{
+        margin: 10px;
+        padding: 10px;
+    }
+    #welcome{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #welcome p{
+        font-size: 30px;
+    }
+    #welcome ul{
+        font-size: 25px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 50px;
+    }
+    .grid h1{
+        grid-column: 1 / span 2;
+    }
+    #paper{
+        grid-column: 1/span 2;
+    }
+    .contact{
+        float:right;
+        margin-right: 125px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    header h1{
+        font-size: 75px;
+        margin-top: 75px;
+    }
+    header img{
+        height: 150px;
+        margin-top: 45px;
+    }
+    #welcome{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 50px;
+    }
+    .grid h1{
+        grid-column: 1 / span 3;
+    }
+    #paper{
+        grid-column: 3;
+    }
 }
